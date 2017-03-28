@@ -1,11 +1,11 @@
 (function(exports){
 
   function Note(note) {
-    this.text = [note]
+    this.text = note
   };
 
   Note.prototype = function() {
-    return this.text[0]
+    return this.text
   };
 
   exports.Note = Note;

@@ -3,4 +3,4 @@ function savesNoteToNotes() {
   assert.isTrue(note.text[0] == "My favourite language is JavaScript")
 };
 
-savesNoteToNotes();
+savesNoteToNotes(); 

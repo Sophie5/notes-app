@@ -1,12 +1,12 @@
-(function(exports) {
+(function(exports){
 
   function Note(note) {
-    var text = [note]
+    this.text = [note]
   };
 
-  Note.prototype.viewNote = function () {
-    console.log(text[0])
+  Note.prototype = function() {
+    return this.text[0]
   };
 
-  exports.viewNote = viewNote;
+  exports.Note = Note;
 })(this);
